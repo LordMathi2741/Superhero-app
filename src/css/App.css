@@ -40,35 +40,20 @@
   margin-right: 1rem;
 }
 
-@media (width<=800px) and (width>=300px){
+@media (width<=800px) and (width>=200px){
 
      .Card{
        flex-direction: column;
-       width: 400px;
-       height: 800px;
+       width: 300px;
+       height: 760px;
      }
 
      .character-img{
-      width: 400px;
-      height: 530px;
+      width: 300px;
+      height: 380px;
      }
      .text-container p{
       margin-left:1rem;
      }
 
-  }
-
-  @media (width<=200px){
-       .character-img{
-        height: 200px;
-       }
-
-       .Card{
-        width: 300px;
-        height: 350px;
-       }
-
-       h1,p{
-        font-size: 0.8rem;
-       }
   }
