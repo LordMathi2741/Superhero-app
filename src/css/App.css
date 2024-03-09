@@ -58,15 +58,14 @@
 
   }
 
-  @media (width>=200px){
+  @media (width<=200px){
        .character-img{
-        height: 235px;
-        width: 250px;
+        height: 200px;
        }
 
        .Card{
-        width: 250px;
-        height: 500px;
+        width: 300px;
+        height: 350px;
        }
 
        h1,p{

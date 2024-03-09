@@ -42,7 +42,7 @@ code {
   }
 }
 
-@media (width>=200px) {
+@media (width<=200px) {
   .title{
     font-size: 1.5rem;
   }
