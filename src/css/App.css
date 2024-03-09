@@ -1,0 +1,59 @@
+
+
+
+
+.Card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  width: 800px;
+  height: 500px;
+  border: solid rgb(248, 245, 245);
+  border-radius: 25px;
+  
+}
+
+.Card:hover{
+  transform: scale(1.1);
+  transition: all(0.6s);
+  cursor: pointer;
+}
+
+.character-img{
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.text-container h1{
+   text-align: center;
+   color:aliceblue;
+   font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+}
+
+.text-container p {
+  text-align: justify;
+  color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 1rem;
+}
+
+@media (width<=800px) and (width>=300px){
+
+     .Card{
+       flex-direction: column;
+       width: 400px;
+       height: 800px;
+     }
+
+     .character-img{
+      width: 400px;
+      height: 530px;
+     }
+     .text-container p{
+      margin-left:1rem;
+     }
+
+  }
