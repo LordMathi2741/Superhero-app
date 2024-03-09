@@ -41,3 +41,13 @@ code {
     text-align: center;
   }
 }
+
+@media (width>=200px) {
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .contenedor-principal{
+    gap:7rem;
+  }
+}

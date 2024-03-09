@@ -57,3 +57,19 @@
      }
 
   }
+
+  @media (width>=200px){
+       .character-img{
+        height: 235px;
+        width: 250px;
+       }
+
+       .Card{
+        width: 250px;
+        height: 500px;
+       }
+
+       h1,p{
+        font-size: 0.8rem;
+       }
+  }
